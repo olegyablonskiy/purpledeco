@@ -1,0 +1,27 @@
+header,nav {
+    background-color: #595959;
+}
+
+body {
+    background-color: #f2f2f2;
+}
+
+#laters-works {
+    background-color: #e0e0e0;
+}
+
+#our-clients {
+    background-color: #ebebeb;
+}
+
+#who-we-are {
+    background-color: #ff7878;
+}
+
+footer, #contact-with-social-medias {
+    background-color: #2d2d2d;
+}
+
+h1,h2 {
+    color: #333;
+}
