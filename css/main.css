@@ -13,7 +13,8 @@ body, footer {
     align-items: center;
     justify-content: center;
     height: 400px;
-    background-image: url(http://www.fubiz.net/wp-content/uploads/2013/11/Daydream-Light-Installation6.jpg)
+    background-image: url(../img/light-installation.jpg);
+    background-size: cover;
 }
 
 h1, h2, p {
@@ -29,27 +30,22 @@ a {
 }
 
 header {
+    background-color: #000000;
+    height: 60px;
     display: flex;
     justify-content: center;
-}
-
-header,nav {
-    background-color: #000000;
 }
 
 body {
     background-color: #f2f2f2;
 }
 
-nav, header {
-    display: flex;
-    height: 60px;
-}
-
-.navbar > a {
+nav {
+    background-color: #000000;
+    height: 45px;
     font-weight: bold;
-    display: flex;
-    justify-content: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
 #laters-works {
@@ -71,8 +67,8 @@ nav, header {
 
 #about-designing {
     padding: 30px;
-     display: grid;
-     grid-template-columns: 1fr 1fr 1fr;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
 }
 
 .about-designer-work {
