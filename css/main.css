@@ -1,9 +1,16 @@
 body {
+    background-color: #f2f2f2;
+    text-align: center;
     max-width: 980px;
     margin: 0 auto;
 }
 
-body, footer {
+main {
+    display: grid;
+    margin: 0 auto;
+}
+
+footer {
     text-align: center;
 }
 
@@ -17,18 +24,6 @@ body, footer {
     background-size: cover;
 }
 
-h1, h2, p {
-    margin: 0;
-}
-
-main {
-    margin: 0 auto;
-}
-
-a {
-    text-decoration: none;
-}
-
 header {
     background-color: #000000;
     height: 60px;
@@ -36,24 +31,51 @@ header {
     justify-content: center;
 }
 
-body {
-    background-color: #f2f2f2;
-}
-
 nav {
     background-color: #000000;
     height: 45px;
     font-weight: bold;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    display: flex;
+    justify-content: flex-end
+}
+
+h1,h2, header {
+    color: #800080;
+}
+
+
+
+a {
+    text-decoration: none;
+}
+
+.navbar {
+    margin: 0 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+a.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #laters-works {
     background-color: #e0e0e0;
 }
 
-#our-clients {
+section#our-clients {
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     background-color: #ebebeb;
+}
+
+#our-clients h2 {
+    grid-column-start: 3;
 }
 
 #who-we-are {
@@ -65,15 +87,21 @@ nav {
     font-size: 2rem;
 }
 
-#about-designing {
-    padding: 30px;
+section #about-designing {
+    margin: 0 auto;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    padding: 10px;
+    text-align: left;
 }
 
 .about-designer-work {
     text-align: justify;
     padding: 10px;
+}
+
+.clients-photos {
+    grid-row-start: 2;
 }
 
 #contact-with-social-medias {
@@ -82,12 +110,9 @@ nav {
 }
 
 footer {
-    background-color: pink;
+    background-color: grey;
     display: flex;
     justify-content: flex-end;
     font-size: 12px;
 }
 
-h1,h2, header {
-    color: #800080;
-}
