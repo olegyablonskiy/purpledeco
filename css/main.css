@@ -1,6 +1,6 @@
 body {
+    display: grid;
     background-color: #f2f2f2;
-    text-align: center;
     max-width: 980px;
     margin: 0 auto;
 }
@@ -20,8 +20,9 @@ footer {
     align-items: center;
     justify-content: center;
     height: 400px;
-    background-image: url(../img/light-installation.jpg);
+    background-image: url(../img/light-installation.jpg);*/
     background-size: cover;
+    background-position: top;
 }
 
 header {
@@ -64,10 +65,11 @@ a.navbar {
 }
 
 #laters-works {
+    display: ;
     background-color: #e0e0e0;
 }
 
-section#our-clients {
+#our-clients {
     display: grid;
     grid-template-rows: 1fr;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
@@ -87,7 +89,7 @@ section#our-clients {
     font-size: 2rem;
 }
 
-section #about-designing {
+#about-designing {
     margin: 0 auto;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
