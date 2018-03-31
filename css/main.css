@@ -111,6 +111,15 @@ a.navbar {
     padding: 30px;
 }
 
+#contact-icons {
+    display: flex;
+    justify-content: center;
+}
+
+.fab {
+    margin: 0 10px;
+}
+
 footer {
     background-color: grey;
     display: flex;
