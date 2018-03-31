@@ -20,7 +20,7 @@ footer {
     align-items: center;
     justify-content: center;
     height: 400px;
-    background-image: url(../img/light-installation.jpg);*/
+    background-image: url(../img/light-installation.jpg);
     background-size: cover;
     background-position: top;
 }
@@ -65,7 +65,6 @@ a.navbar {
 }
 
 #laters-works {
-    display: ;
     background-color: #e0e0e0;
 }
 
