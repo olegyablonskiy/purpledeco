@@ -149,4 +149,14 @@ footer {
     text-align: center;
     color: #800080;
     }
+    
+    #our-clients {
+    display: flex;
+    flex-direction: column;
+    background-color: #ebebeb;
+    }
+    
+    #our-clients h2 {
+    padding-top: 20px;
+    }
 }
