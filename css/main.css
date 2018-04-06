@@ -144,4 +144,9 @@ footer {
     padding: 10px;
     text-align: center;
     }
+    
+    h1, h2, header {
+    text-align: center;
+    color: #800080;
+    }
 }
