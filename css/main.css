@@ -50,6 +50,10 @@ a {
     text-decoration: none;
 }
 
+.work-photos img {
+    width: 30%;
+}
+
 .navbar {
     margin: 0 10px;
     display: flex;
@@ -76,6 +80,7 @@ a.navbar {
 }
 
 #our-clients h2 {
+    margin: 0 auto;
     grid-column-start: 3;
 }
 
@@ -102,6 +107,9 @@ a.navbar {
 }
 
 .clients-photos {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin: 0 auto;
     grid-row-start: 2;
 }
 
@@ -126,3 +134,11 @@ footer {
     font-size: 12px;
 }
 
+@media (max-width: 655px) {
+    
+#about-designing {
+    margin: 0 auto;
+    padding: 10px;
+    text-align: center;
+    }
+}
