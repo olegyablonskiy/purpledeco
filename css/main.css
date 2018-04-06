@@ -138,6 +138,8 @@ footer {
 @media (max-width: 655px) {
     
 #about-designing {
+    display: grid;
+    grid-template-columns: 1fr;
     margin: 0 auto;
     padding: 10px;
     text-align: center;
