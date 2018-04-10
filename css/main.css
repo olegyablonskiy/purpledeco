@@ -105,7 +105,14 @@ footer {
     font-size: 12px;
 }
 
-#about-milena article img {
+#about-milena {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+}
+
+#about-milena img {
     width: 400px;
     height: 400px;
     border: 8px solid black;
