@@ -10,43 +10,31 @@ main {
     margin: 0 auto;
 }
 
-footer {
-    text-align: center;
-}
-
 #slogan {
-    font-size: 2.3rem;
     display: flex;
-    align-items: center;
-    justify-content: center;
     height: 400px;
-    background-image: url(../img/light-installation.jpg);
+    background-image: url(../img/62635703-individuality-symbol-and-independent-thinker-concept-and-new-leadership-concept-or-individuality-as-.png);
     background-size: cover;
     background-position: top;
 }
 
 header {
-    background-color: #000000;
+    background-color: #563d7c;
     height: 60px;
     display: flex;
     justify-content: center;
 }
 
 nav {
-    background-color: #000000;
+    background-color: #7B1FA2;
     height: 45px;
     font-weight: bold;
     display: flex;
     justify-content: flex-end
 }
 
-h1,h2, header {
-    color: #800080;
-}
-
-
-
 a {
+    color: #BDBDBD;
     text-decoration: none;
 }
 
@@ -68,11 +56,6 @@ a.navbar {
     align-items: center;
 }
 
-#laters-works {
-    display: flex;
-    background-color: #e0e0e0;
-}
-
 #our-clients {
     display: grid;
     grid-template-rows: 1fr;
@@ -86,12 +69,9 @@ a.navbar {
 }
 
 #who-we-are {
+    color: #BDBDBD;
     padding: 20px;
-    background-color: #ff7878;
-}
-
-#contact-with-social-medias {
-    font-size: 2rem;
+    background-color: #7B1FA2;
 }
 
 #about-designing {
@@ -114,8 +94,14 @@ a.navbar {
     grid-row-start: 2;
 }
 
+#form {
+    padding: 30px;
+    margin: 35px 20px;
+}
+
 #contact-with-social-medias {
-    background-color: pink;
+    color: #BDBDBD;
+    background-color: #563d7c;
     padding: 30px;
 }
 
@@ -129,13 +115,14 @@ a.navbar {
 }
 
 footer {
-    background-color: grey;
+    color: #BDBDBD;
+    background-color: #563d7c;
     display: flex;
     justify-content: flex-end;
     font-size: 12px;
 }
 
-@media (max-width: 655px) {
+@media (max-width: 600px) {
     
 #about-designing {
     display: grid;
@@ -149,6 +136,11 @@ footer {
     text-align: center;
     color: #800080;
     }
+    
+    header {
+    background-color: #000000;
+    height: 103px;
+}
     
     #our-clients {
     display: flex;
