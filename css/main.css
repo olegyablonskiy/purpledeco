@@ -25,12 +25,26 @@ header {
     justify-content: center;
 }
 
-nav {
-    background-color: #7B1FA2;
-    height: 45px;
-    font-weight: bold;
+/*nav {*/
+/*    background-color: #7B1FA2;*/
+/*    height: 45px;*/
+/*    font-weight: bold;*/
+/*    display: flex;*/
+/*    justify-content: flex-end*/
+/*}*/
+
+.navbar {
+    background-color: #7B1FA3;
+    padding: 0;
     display: flex;
-    justify-content: flex-end
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: #BDBDBD;
+}
+
+.bg {
+    background-color: #7B1FA3;
 }
 
 a {
@@ -40,14 +54,6 @@ a {
 
 .work-photos img {
     width: 30%;
-}
-
-.navbar {
-    margin: 0 10px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-decoration: none;
 }
 
 a.navbar {
@@ -64,6 +70,7 @@ a.navbar {
 }
 
 #our-clients h2 {
+    font-size: 1rem; /*1 rem added to rewrite browser addin 2rem*/
     margin: 0 auto;
     grid-column-start: 3;
 }
@@ -125,30 +132,33 @@ footer {
 @media (max-width: 600px) {
     
 #about-designing {
-    display: grid;
-    grid-template-columns: 1fr;
-    margin: 0 auto;
-    padding: 10px;
-    text-align: center;
+        display: grid;
+        grid-template-columns: 1fr;
+        margin: 0 auto;
+        padding: 10px;
+        text-align: center;
     }
     
     h1, h2, header {
-    text-align: center;
-    color: #800080;
+        text-align: center;    
     }
     
     header {
-    background-color: #000000;
-    height: 103px;
-}
-    
-    #our-clients {
-    display: flex;
-    flex-direction: column;
-    background-color: #ebebeb;
+        background-color: #000000;
+        height: 103px;
     }
     
-    #our-clients h2 {
-    padding-top: 20px;
+    #our-clients {
+        display: flex;
+        flex-direction: column;
+        background-color: #ebebeb;
+    }
+    
+    #our-clients {
+        padding-top: 20px;
+    }
+    
+    #form {
+        margin:0 auto;
     }
 }
