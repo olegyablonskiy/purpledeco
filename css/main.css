@@ -98,6 +98,14 @@ a {
     margin: 0 10px;
 }
 
+#laters-works {
+    text-align: center;
+}
+
+#laters-works h2 {
+    padding-bottom: 15px;
+}
+
 footer {
     color: #BDBDBD;
     display: flex;
