@@ -55,20 +55,20 @@ a {
 
 #who-we-are {
     color: #BDBDBD;
-    padding: 20px;
+    padding: 20px 0 20px 0;
 }
 
 #about-designing {
     margin: 0 auto;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    padding: 10px;
+    padding: 10px 0 10px 0;
     text-align: left;
 }
 
 .about-designer-work {
     text-align: justify;
-    padding: 10px;
+    padding: 10px 0 10px 0;
 }
 
 .clients-photos {
@@ -79,14 +79,14 @@ a {
 }
 
 #form {
-    padding: 30px;
+    padding: 30px 0 30px 0;
     margin: 35px 20px;
 }
 
 #contact-with-social-medias {
     font-size: 35px;
     color: #BDBDBD;
-    padding: 30px;
+    padding: 30px 0 30px 0;
 }
 
 #contact-icons {
@@ -117,14 +117,16 @@ footer {
     text-align: center;
     display: flex;
     justify-content: center;
-    padding: 40px;
+    padding: 20px 0 20px 0;
 }
 
 #about-milena img {
-    width: 400px;
-    height: 400px;
+    width: 90vw;
+    height: 90vw;
     border: 8px solid black;
-    border-radius: 200px;
+    border-radius: 5000px;
+    max-width: 400px;
+    max-height: 400px;
 }
 
 textarea, input {
@@ -137,13 +139,16 @@ textarea {
     height: 250px;
 }
 
+@media (min-width: 299px){
+    
+}
+
 @media (max-width: 600px) {
     
-#about-designing {
+    #about-designing {
         display: grid;
         grid-template-columns: 1fr;
         margin: 0 auto;
-        padding: 10px;
         text-align: center;
     }
     
@@ -158,7 +163,7 @@ textarea {
     #our-clients {
         display: flex;
         flex-direction: column;
-        background-color: #ebebeb;
+        background-color: black;
     }
     
     #our-clients {
