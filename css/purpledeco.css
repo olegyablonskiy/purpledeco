@@ -4,6 +4,7 @@ body {
     display: grid;
     background-color: black;
     max-width: 980px;
+    min-width: 200px;
     margin: 0 auto;
 }
 
