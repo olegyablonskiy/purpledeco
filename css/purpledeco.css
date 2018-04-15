@@ -130,6 +130,12 @@ footer {
     max-height: 400px;
 }
 
+#projects h2 {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
 textarea, input {
     background-color: #bdbdbd;
     border: 0px;
