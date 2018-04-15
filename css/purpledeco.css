@@ -146,6 +146,11 @@ textarea {
     height: 250px;
 }
 
+#lambretta {
+    max-width: 255px;
+    width: 28.6vw;
+}
+
 @media (min-width: 299px){
     
 }
