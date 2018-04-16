@@ -159,7 +159,7 @@ textarea {
     
 }
 
-@media (max-width: 640px) {
+@media (max-width: 761px) {
     
     #about-designing {
         display: grid;
