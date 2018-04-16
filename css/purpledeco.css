@@ -170,6 +170,10 @@ textarea {
         text-align: center;
     }
     
+    #lambretta {
+        min-width: 120px;
+    }
+    
     h1, h2, header {
         text-align: center;    
     }
